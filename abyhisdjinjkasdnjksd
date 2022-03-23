@@ -1,5 +1,10 @@
-LocalPlayer.Cash:GetPropertyChangedSignal("Value"):Connect(function(cash) 
-	if values.misc.client["infinite cash"].Toggle and cash ~= 90000000 then 
-		LocalPlayer.Cash.Value = 9000000 
-	end 
-end)
+local CashLoop = true
+
+function CashLoopF()
+    game.Players.LocalPlayer.Cash.Value = 6666666
+end
+
+while CashLoop == true do
+    CashLoopF()
+    wait(0.5)
+end

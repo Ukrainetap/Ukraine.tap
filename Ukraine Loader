@@ -1,54 +1,3 @@
-if bitchKey == "3LtCL4HYwPe86ri2I8bd" then
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "[CONSOLE]",
-        "Checking Key.",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(2)
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "[CONSOLE]",
-        "Checking Key..",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-        getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "[CONSOLE]",
-        "Checking Key...",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(2)
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "[CONSOLE]",
-        "Correct Key!",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(1)
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "Bitch.pub",
-        "Injecting, Please be Patient.",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(10)
-        getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "Bitch.pub",
-        "Welcome to Bitch.pub Wikipedia!",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-end
-
-wait(3)
-
 getgenv().values = {}
 local library = loadstring(game:HttpGet'https://raw.githubusercontent.com/CatzCode/PikaHub/main/Libraries/UI/bruh.lua')()
 library:CreateWatermark("Bitch.pub | Developer subscription | V.7")
@@ -7674,22 +7623,3 @@ for _,Player in pairs(Players:GetPlayers()) do
 		end 
 	end 
 end 
-else
-        getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "[CONSOLE]",
-        "INCORRECT Key!",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(2)
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
-    getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "Bitch.pub",
-        "Whats the shape of italy?",
-        Color3.fromRGB(255,189,249),
-        Color3.new(189,206,255),
-        .01)
-    wait(5)
-    game.Players.LocalPlayer:Kick("\nIts a boot.\n Get Whitelisted at Discord.gg/")
-end
